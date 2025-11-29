@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="description" content="Free online HEIC to JPG converter. Convert iPhone photos to JPEG instantly. 100% Private.">
+
+    <meta name="description"
+        content="Free online HEIC to JPG converter. Convert iPhone photos to JPEG instantly. 100% Private.">
     <title>Heicmate - Free HEIC to JPG Converter</title>
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
@@ -27,11 +28,11 @@
         <button class="close-btn" onclick="toggleNav()">&times;</button>
         <div>
             <a href="/" class="nav-link"><i class="fas fa-home"></i> Home</a>
-            
+
             <a href="/#results-area" class="nav-link"><i class="fas fa-download"></i> Your Downloads</a>
-            
+
             <div class="menu-separator"></div>
-            
+
             <a href="/faq/" class="nav-link"><i class="fas fa-question-circle"></i> FAQ & Help</a>
             <a href="/privacy/" class="nav-link"><i class="fas fa-user-shield"></i> Privacy Policy</a>
             <a href="/contact/" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
@@ -64,11 +65,35 @@
             </div>
         </div>
 
+        <div class="info-card" style="margin-top: 40px;">
+            <h2>How to Convert HEIC to JPG Online?</h2>
+            <p>HeicMate allows you to convert iPhone photos (.heic) to standard JPEG images instantly. Here is how:</p>
+            <ol style="text-align: left; margin-left: 20px; line-height: 1.8; color: #555;">
+                <li><strong>Select your photos:</strong> Drag and drop your HEIC files or click the "Select Files"
+                    button.</li>
+                <li><strong>Automatic Conversion:</strong> Our tool processes your files instantly using advanced
+                    browser technology.</li>
+                <li><strong>Download:</strong> Save your new JPG images individually or download them all as a ZIP
+                    archive.</li>
+            </ol>
+
+            <h3 style="margin-top: 30px;">Why use HeicMate?</h3>
+            <ul style="text-align: left; margin-left: 20px; line-height: 1.8; color: #555;">
+                <li><strong>100% Private:</strong> Unlike other converters, your photos are <em>never uploaded</em> to a
+                    server. Conversion happens locally on your device.</li>
+                <li><strong>Free & Unlimited:</strong> No hidden fees, no email required.</li>
+                <li><strong>Bulk Conversion:</strong> Convert up to 20 photos at once to save time.</li>
+                <li><strong>High Quality:</strong> We preserve the original quality of your iPhone photos while making
+                    them compatible with Windows and Android.</li>
+            </ul>
+        </div>
+
         <div id="results-area">
             <div class="results-header" id="resHeader">
                 <h3 class="results-title">Your Downloads</h3>
                 <div class="results-actions">
-                    <button id="downloadAllBtn" onclick="downloadAllZip()"><i class="fas fa-file-archive"></i> ZIP</button>
+                    <button id="downloadAllBtn" onclick="downloadAllZip()"><i class="fas fa-file-archive"></i>
+                        ZIP</button>
                     <button id="clearAllBtn" onclick="clearAll()"><i class="fas fa-trash"></i> Clear</button>
                 </div>
             </div>
@@ -85,7 +110,7 @@
     <script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-    
+
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
         data-id="heicmate" data-description="Support me!" data-message="Buy me a coffee?" data-color="#FFDD00"
         data-position="Right" data-x_margin="18" data-y_margin="18"></script>
@@ -94,8 +119,10 @@
         <div class="cookie-content">
             <h3>We value your privacy <i class="fas fa-cookie-bite" style="color: #e67e22;"></i></h3>
             <p>
-                We use cookies to enhance your browsing experience. By clicking "Accept All", you consent to our use of cookies.
-                <a href="/privacy/" style="color: var(--primary); text-decoration: underline;">Read our Privacy Policy</a>.
+                We use cookies to enhance your browsing experience. By clicking "Accept All", you consent to our use of
+                cookies.
+                <a href="/privacy/" style="color: var(--primary); text-decoration: underline;">Read our Privacy
+                    Policy</a>.
             </p>
         </div>
         <div class="cookie-buttons">
@@ -106,4 +133,5 @@
 
     <script src="/script.js"></script>
 </body>
+
 </html>
