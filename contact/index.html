@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNW1FMKL75"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZNW1FMKL75');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Heicmate</title>
-    
+
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -14,6 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <div id="overlay" class="overlay" onclick="toggleNav()"></div>
 
@@ -21,11 +32,11 @@
         <button class="close-btn" onclick="toggleNav()">&times;</button>
         <div>
             <a href="/" class="nav-link"><i class="fas fa-home"></i> Home</a>
-            
+
             <a href="/#results-area" class="nav-link"><i class="fas fa-download"></i> Your Downloads</a>
-            
+
             <div class="menu-separator"></div>
-            
+
             <a href="/faq/" class="nav-link"><i class="fas fa-question-circle"></i> FAQ & Help</a>
             <a href="/privacy/" class="nav-link"><i class="fas fa-user-shield"></i> Privacy Policy</a>
             <a href="/contact/" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
@@ -45,14 +56,14 @@
         <div class="info-card">
             <h2>Get in Touch</h2>
             <p>Found a bug or have a suggestion? We'd love to hear from you.</p>
-            
+
             <form class="contact-form" action="mailto:EMAILUL_TAU@GMAIL.COM" method="post" enctype="text/plain">
                 <label>Name</label>
                 <input type="text" name="name" placeholder="Your Name" required>
-                
+
                 <label>Message</label>
                 <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
-                
+
                 <button type="submit">Send Email</button>
             </form>
         </div>
@@ -60,7 +71,10 @@
         <div class="ad-space">Advertisement Space</div>
     </div>
 
-    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="heicmate" data-description="Support me!" data-message="Buy me a coffee?" data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="heicmate" data-description="Support me!" data-message="Buy me a coffee?" data-color="#FFDD00"
+        data-position="Right" data-x_margin="18" data-y_margin="18"></script>
     <script src="/script.js"></script>
 </body>
+
 </html>
